@@ -1,0 +1,54 @@
+body {
+    background-image: url(Cadastro-_1_.gif);
+    font: normal 18pt Arial;
+
+}
+
+div#login {
+    font: normal 18pt Arial;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#cadastro {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div#titulo {
+    background-color: rgba(240, 248, 255, 0.432);
+    text-align: center;
+    height: 100px;
+    width: 1900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+div#textLogin {
+    background-color: rgba(240, 248, 255, 0.473);
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+
+button#btnLogin {
+    width: 200px;
+}
+
+div#cadProf {
+    margin-bottom: 20px;
+}
