@@ -1,12 +1,12 @@
 body {
     background-image: url(Cadastro-_2_.gif);
     font: normal 18pt Arial;
-
+    display: grid;
+    place-items: center;
 }
 div#cadastro {
     width: 600px;
     height: 300px;
-    margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,6 +23,12 @@ button#btnCadastro {
 div#textCad{
     background-color: rgba(31, 31, 114, 0.548);
     text-align: center;
-    margin: auto;
     width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200%; 
+    border-radius: 8px;
+    border-color: rgba(71, 71, 224, 0.671);
 }

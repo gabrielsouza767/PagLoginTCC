@@ -1,17 +1,17 @@
 body {
     background-image: url(Cadastro-_1_.gif);
     font: normal 18pt Arial;
-
+    display: grid;
+    place-items: center;
 }
 
 div#login {
     font: normal 18pt Arial;
     text-align: center;
-    margin: auto;
     width: 400px;
     height: 400px;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -23,14 +23,21 @@ div#titulo {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 100%; 
     margin-bottom: 100px;
 }
 
 div#textLogin {
-    background-color: rgba(240, 248, 255, 0.473);
+    background-color: rgba(240, 248, 255, 0.644);
     text-align: center;
-    margin: auto;
     width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 400%; 
+    border-radius: 10px;
 }
 
 button#btnLogin {
