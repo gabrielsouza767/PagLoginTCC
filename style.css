@@ -15,18 +15,6 @@ div#login {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-div#cadastro {
-    width: 600px;
-    height: 300px;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 div#titulo {
     background-color: rgba(240, 248, 255, 0.432);
     text-align: center;
@@ -49,6 +37,3 @@ button#btnLogin {
     width: 200px;
 }
 
-div#cadProf {
-    margin-bottom: 20px;
-}

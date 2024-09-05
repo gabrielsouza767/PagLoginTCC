@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
   <script src="sript.js"></script>
   <title>Document</title>
 </head>
 
 <body>
+  <div id="textCad">
+    <h1>Criar uma conta Professor</h1>
+  </div>
   <div id="cadastro">
     <form>
       <div class="form-group row">
@@ -29,17 +32,19 @@
       <div class="form-group row">
         <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-10" id="cadProf">
-          <input type="password" class="form-control" id="inputPassword3" placeholder="Confirme a Senha">
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Confirme a Senha">
         </div>
       </div>
       <fieldset class="form-group">
-        <div class="col-md-9" id="cadProf">
-          <label for="validationDefault05" class="form-label"></label>
-          <input type="text" class="form-control" id="validationDefault05" required placeholder="Turma">
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+          <div class="col-sm-10" id="cadProf">
+            <input type="password" class="form-control" id="inputPassword5" placeholder="Turma">
+          </div>
         </div>
         <div class="col-12">
           <a href="index.html">
-            <button class="btn btn-dark" type="submit" onclick="clicou()" id="btnLogin">Cadastrar</button>
+            <button class="btn btn-dark" type="submit" onclick="clicou()" id="btnCadastro">Cadastrar</button>
           </a>
         </div>
     </form>
