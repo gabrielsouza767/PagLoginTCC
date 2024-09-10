@@ -6,7 +6,7 @@ body {
     display: grid;
     place-items: center;
 }
-div#cadastro {
+div#genTurmas{
     width: 400px;
     height: 400px;
     position: absolute;
@@ -15,31 +15,26 @@ div#cadastro {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-div#cadProf {
-    margin-bottom: 20px;
-   
+button#btnTurmas{
+    height: 40px;
 }
-button#btnCadastro {
+div#divTurmas{
+    margin-bottom: 10px;
+}
+button#btnModal{
     width: 400px;
 }
-input#exampleInputEmail1{
-    box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
-}
-input#exampleInputPassword1{
-    box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
-}
-div#textCad{
-    background-color: rgba(31, 31, 114, 0.548);
+div#textTurmas{
+    background-color: rgba(240, 248, 255, 0.644);
     text-align: center;
-    width: 1000px;
-    box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 8px;
-    border: 3px solid rgba(25, 25, 126, 0.733);
+    border-radius: 10px;
 }
