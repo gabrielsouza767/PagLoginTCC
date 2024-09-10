@@ -1,6 +1,7 @@
 body {
     background-image: url(Login-2-1024-2.gif);
     font: normal 18pt Arial;
+    background-repeat: no-repeat;
     display: grid;
     place-items: center;
 }
