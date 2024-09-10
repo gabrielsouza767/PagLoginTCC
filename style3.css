@@ -18,6 +18,10 @@ div#genTurmas{
 button#btnTurmas{
     height: 40px;
 }
+button#btnSenha{
+    height: 40px;
+    width: 150px;
+}
 div#divTurmas{
     margin-bottom: 10px;
 }
@@ -37,4 +41,13 @@ div#textTurmas{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+}
+div#genSenha{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
