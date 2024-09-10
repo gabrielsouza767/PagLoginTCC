@@ -5,10 +5,10 @@ body {
     place-items: center;
 }
 div#cadastro {
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -18,17 +18,26 @@ div#cadProf {
    
 }
 button#btnCadastro {
-    width: 500px;
+    width: 400px;
+}
+input#exampleInputEmail1{
+    box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
+}
+input#exampleInputPassword1{
+    box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
 }
 div#textCad{
     background-color: rgba(31, 31, 114, 0.548);
     text-align: center;
     width: 1000px;
+    box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: 200%; 
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 8px;
     border-color: rgba(71, 71, 224, 0.671);
 }
