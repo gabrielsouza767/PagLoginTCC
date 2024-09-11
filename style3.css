@@ -1,5 +1,5 @@
 body {
-    background-image: url(Login-2-1024-2.gif);
+    background-image: url(Fundo\ Full\ HD.png);
     font: normal 18pt Arial;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,7 @@ div#textTurmas{
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -250%);
     border-radius: 10px;
 }
 div#genSenha{

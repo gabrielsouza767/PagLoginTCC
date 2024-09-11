@@ -7,14 +7,14 @@ body {
     display: grid;
     place-items: center;
 }
-
+ 
 div#login {
     font: normal 18pt Arial;
     text-align: center;
     width: 400px;
     height: 400px;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -30,10 +30,10 @@ div#titulo {
     position: absolute;
     top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -250%);
     margin-bottom: 100px;
 }
-
+ 
 div#textLogin {
     background-color: rgba(240, 248, 255, 0.644);
     text-align: center;
@@ -43,18 +43,22 @@ div#textLogin {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 35%;
+    margin-bottom: 100px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -80%);
     border-radius: 10px;
 }
 input#exampleInputEmail1{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
 }
-input#exampleInputPassword1{
+input#exampleInputPassword2{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
 }
 button#btnLogin {
+    width: 200px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
+}
+button#btnLogin2 {
     width: 200px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
 }
