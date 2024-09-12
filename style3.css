@@ -2,6 +2,8 @@ body {
     background-image: url(Fundo\ Full\ HD.png);
     font: normal 18pt Arial;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
     background-size: cover;
     display: grid;
     place-items: center;

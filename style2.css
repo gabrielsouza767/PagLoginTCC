@@ -1,8 +1,10 @@
 body {
-    background-image: url(Login-2-1024-2.gif);
+    background-image: url(Mapa\ 1920.png);
     font: normal 18pt Arial;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
     display: grid;
     place-items: center;
 }

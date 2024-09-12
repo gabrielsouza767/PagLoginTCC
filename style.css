@@ -1,8 +1,10 @@
 
 body {
-    background-image: url(Login-1-1280.gif);
+    background-image: url(Principal\ 1920.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
     font: normal 18pt Arial;
     display: grid;
     place-items: center;
