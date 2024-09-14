@@ -22,6 +22,8 @@ body {
     border-radius: 10px;
     padding: 30px 40px;
     border: 2px solid rgba(255, 255, 255 .2);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
+    margin-top: 150px;
 }
 .wrapper h1{
     font-size: 36px;
@@ -97,4 +99,15 @@ body {
 }
 .register-link p a:hover{
     text-decoration: underline;
+}
+.titulo{
+    background-color: #ffffff8f;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    transform: translateY(50% -50%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
 }
