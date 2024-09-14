@@ -24,6 +24,7 @@ body {
     border: 2px solid rgba(255, 255, 255 .2);
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
     margin-top: 100px;
+    backdrop-filter: blur(5px);
 }
 .wrapper h1{
     font-size: 36px;
