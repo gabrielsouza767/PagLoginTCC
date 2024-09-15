@@ -19,6 +19,10 @@ div#genTurmas{
 }
 button#btnTurmas{
     height: 40px;
+    transition: 750ms;
+}
+button#btnTurmas:hover{
+    transform:scale(1.10);
 }
 button#btnSenha{
     height: 40px;
@@ -27,8 +31,13 @@ button#btnSenha{
 div#divTurmas{
     margin-bottom: 10px;
 }
+
 button#btnModal{
     width: 400px;
+    transition: 750ms;
+}
+button#btnModal:hover{
+    transform:scale(1.05);
 }
 div#textTurmas{
     background-color: rgba(240, 248, 255, 0.644);
@@ -52,4 +61,48 @@ div#genSenha{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.cont1{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transition: 750ms;
+}
+.cont1:hover{
+    transform: scale(1.05);
+}
+.cont2{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transition: 750ms;
+}
+.cont2:hover{
+    transform: scale(1.05);
+}
+.titulo{
+    background-color: rgba(240, 248, 255, 0.432);
+    text-align: center;
+    height: 100px;
+    width: 1900px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    margin-bottom: 100px;
+}
+@keyframes tittle {
+    0%,
+    100%{
+        transform:translateY(-1px) rotate(-1deg);
+    }
+    50%{
+        transform:translateY(1px) rotate(1deg);
+    }
 }
