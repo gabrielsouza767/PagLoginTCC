@@ -1,3 +1,4 @@
+
 body {
     background-image: url(img/Mapa\ 1920.png);
     font: normal 18pt Arial;
@@ -8,9 +9,12 @@ body {
     display: grid;
     place-items: center;
 }
-div#cadastro {
-    width: 400px;
+.cadastro {
+    width: 500px;
     height: 400px;
+    background-color: rgba(1, 5, 8, 0.644);
+    padding: 30px 30px 30px;
+    border-radius: 10px;
     position: absolute;
     top: 60%;
     left: 50%;
@@ -60,4 +64,10 @@ input#exampleInputPassword6{
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
+}
+button#btnNew{
+    width: 440px;
+}
+button#btnNew2{
+    width: 440px;
 }

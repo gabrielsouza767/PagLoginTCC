@@ -14,36 +14,41 @@
 
 <body>
   <div class="container-fluid">
-    <div id="cadastro">
+    <div class="cadastro">
       <div class="textCad">
         <h1>Criar uma conta Professor</h1>
       </div>
       <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1"></label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Usuário">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Usuário</span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1"></label>
-          <input type="password" class="form-control" id="exampleInputPassword5" placeholder="Senha">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1"></label>
-          <input type="password" class="form-control" id="exampleInputPassword6" placeholder="Confirme sua senha">
-        </div>
-        <div class="mb-3 form-check">
-        </div>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a href="turmasprof.html">
-            <button type="button" class="btn btn-dark" onclick="clicou()" id="btnCadastro">
-              Cadastrar</button>
 
-          </a>
-
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+            aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
         </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon2">Senha</span>
+          <input type="password" class="form-control" placeholder="Senha" aria-label="Senha"
+            aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" placeholder="Confirme sua senha" aria-label="Confirme sua senha"
+            aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon3">Confirmar senha</span>
+        </div>
+        <a href="turmasprof.html">
+          <button class="btn btn-primary" type="button" id="btnNew" onclick="clicou()">Cadastrar</button>
+        </a>
+
+      </form>
 
     </div>
+
+  </div>
 
 </body>
 
