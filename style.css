@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(Principal\ 1920.png);
+    background-image: url(rainforest-7350.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -115,4 +115,9 @@ body {
     left: 50%;
     transform: translate(-50%, -250%);
     margin-bottom: 100px;
+}
+.titulo h1{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
 }

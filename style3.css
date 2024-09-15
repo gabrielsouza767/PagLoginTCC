@@ -39,7 +39,7 @@ button#btnModal{
 button#btnModal:hover{
     transform:scale(1.05);
 }
-div#textTurmas{
+.textTurmas{
     background-color: rgba(240, 248, 255, 0.644);
     text-align: center;
     width: 400px;
@@ -52,6 +52,11 @@ div#textTurmas{
     left: 50%;
     transform: translate(-50%, -250%);
     border-radius: 10px;
+}
+.textTurmas h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 div#genSenha{
     width: 450px;
@@ -99,12 +104,8 @@ div#genSenha{
     transform: translate(-50%, -40%);
     margin-bottom: 100px;
 }
-@keyframes tittle {
-    0%,
-    100%{
-        transform:translateY(-1px) rotate(-1deg);
-    }
-    50%{
-        transform:translateY(1px) rotate(1deg);
-    }
+.titulo h1{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
 }

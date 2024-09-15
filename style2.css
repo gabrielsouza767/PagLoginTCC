@@ -42,7 +42,7 @@ input#exampleInputPassword6{
     box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
 }
 .textCad{
-    background-color: rgba(237, 237, 245, 0.664);
+    background-color: rgba(237, 237, 245, 0.747);
     text-align: center;
     width: 1000px;
     box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
@@ -55,4 +55,9 @@ input#exampleInputPassword6{
     transform: translate(-50%, -300%);
     border-radius: 8px;
     border: 3px solid rgba(25, 25, 126, 0.733);
+}
+.textCad h1{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
