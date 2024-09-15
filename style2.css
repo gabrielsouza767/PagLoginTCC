@@ -41,8 +41,8 @@ input#exampleInputPassword5{
 input#exampleInputPassword6{
     box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
 }
-div#textCad{
-    background-color: rgba(31, 31, 114, 0.548);
+.textCad{
+    background-color: rgba(237, 237, 245, 0.664);
     text-align: center;
     width: 1000px;
     box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);

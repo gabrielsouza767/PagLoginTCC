@@ -65,6 +65,7 @@ div#genSenha{
 .cont1{
     display: flex;
     position: absolute;
+    transform: translate(30%, 0%);
     top: 30%;
     left: 50%;
     transition: 750ms;
@@ -75,6 +76,7 @@ div#genSenha{
 .cont2{
     display: flex;
     position: absolute;
+    transform: translate(-30%, 0%);
     top: 30%;
     left: 30%;
     transition: 750ms;
