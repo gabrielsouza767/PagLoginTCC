@@ -5,6 +5,8 @@ body{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    display: grid;
+    place-items: center;
 }
 div#divTurmOne{
     margin-bottom: 10px;
