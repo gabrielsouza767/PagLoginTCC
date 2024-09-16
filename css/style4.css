@@ -1,0 +1,50 @@
+body{
+    background-image: url(img/Imgclase.png);
+    font: normal 18pt Arial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+div#divTurmOne{
+    margin-bottom: 10px;
+}
+div#divTurmTwo{
+    margin-bottom: 10px;
+}
+div#divTurmTree{
+    margin-bottom: 10px;
+}
+button#btnTurm1{
+    height: 40px;
+    transition: 750ms;
+}
+button#btnTurm2{
+    height: 40px;
+    transition: 750ms;
+}
+button#btnTurm3{
+    height: 40px;
+    transition: 750ms;
+}
+button#btnTurm1:hover{
+    transform:scale(1.10);
+}
+button#btnTurm2:hover{
+    transform:scale(1.10);
+}
+button#btnTurm3:hover{
+    transform:scale(1.10);
+}
+.estatisticas{
+    width: 400px;
+    height: 500px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
