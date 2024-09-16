@@ -30,6 +30,9 @@ body {
     font-size: 36px;
     text-align: center;
 }
+.wrapper h4{
+    text-align: center;
+}
 .wrapper .input-box{
     position: relative;
     width: 100%;
