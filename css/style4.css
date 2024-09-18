@@ -100,3 +100,6 @@ button#btnTurm3:hover{
 .linksTurms a:hover{
     text-decoration: underline;
 }
+.infoTurma a{
+    width: 40%;
+}

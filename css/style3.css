@@ -9,8 +9,12 @@ body {
     place-items: center;
 }
 div#genTurmas{
-    width: 400px;
+    width: 450px;
     height: 400px;
+    background-color: rgba(0, 0, 0, 0.774);
+    border: 3px solid #fff;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
     position: absolute;
     top: 60%;
     left: 50%;
