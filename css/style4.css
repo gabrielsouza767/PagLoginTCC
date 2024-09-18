@@ -67,7 +67,7 @@ button#btnTurm3:hover{
     font-weight: 600;
 }
 .infoTurma{
-    background-color: rgba(240, 248, 255, 0.877);
+    background-color: #fff;
     width: 90%;
     height: 90%;
     text-align: center;
@@ -87,4 +87,16 @@ button#btnTurm3:hover{
     width: 400px;
     height: 300px;
     margin-top: 30px;
+}
+.linksTurms{
+    position:absolute;
+    top: 30%;
+    left: 35%;
+}
+.linksTurms a{
+    text-decoration: none;
+    color: black;
+}
+.linksTurms a:hover{
+    text-decoration: underline;
 }
