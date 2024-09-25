@@ -1,151 +1,169 @@
-
 body {
-    background-image: url(img/Mapa\ 1920.png);
-    font: normal 18pt Arial;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    display: grid;
-    place-items: center;
+    background-image: url(img/pixels.gif); /* Define uma imagem de fundo animada */
+    font: normal 18pt Arial; /* Define a fonte padrão como Arial, tamanho 18pt */
+    background-repeat: no-repeat; /* A imagem de fundo não se repetirá */
+    background-size: cover; /* A imagem de fundo cobrirá toda a área visível */
+    background-attachment: fixed; /* A imagem de fundo permanecerá fixa durante a rolagem */
+    background-position: center center; /* Centraliza a imagem de fundo */
+    display: grid; /* Utiliza grid para o layout */
+    place-items: center; /* Centraliza os itens do grid */
 }
+
 .cadastro {
-    width: 500px;
-    height: 500px;
-    color: #fff;
-    background-color: rgba(1, 5, 8, 0.801);
-    padding: 30px 30px 30px;
-    border-radius: 10px;
-    border: 3px solid #fff;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    width: 500px; /* Largura do contêiner de cadastro */
+    height: 500px; /* Altura do contêiner de cadastro */
+    color: #fff; /* Cor do texto dentro do contêiner */
+    background-color: rgba(1, 5, 8, 0.801); /* Fundo semi-transparente escuro */
+    padding: 30px; /* Preenchimento interno do contêiner */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    border: 3px solid #fff; /* Borda branca ao redor do contêiner */
+    position: absolute; /* Permite posicionar o contêiner de forma absoluta */
+    top: 60%; /* Define a posição vertical do contêiner */
+    left: 50%; /* Define a posição horizontal do contêiner */
+    transform: translate(-50%, -50%); /* Centraliza o contêiner em relação ao seu próprio tamanho */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
 }
+
 .cadastro2 {
-    width: 500px;
-    height: 520px;
-    color: #fff;
-    background-color: rgba(1, 5, 8, 0.801);
-    padding: 30px 30px 30px;
-    border-radius: 10px;
-    border: 3px solid #fff;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    width: 500px; /* Largura do segundo contêiner de cadastro */
+    height: 520px; /* Altura do segundo contêiner de cadastro */
+    color: #fff; /* Cor do texto dentro do contêiner */
+    background-color: rgba(1, 5, 8, 0.801); /* Fundo semi-transparente escuro */
+    padding: 30px; /* Preenchimento interno do contêiner */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    border: 3px solid #fff; /* Borda branca ao redor do contêiner */
+    position: absolute; /* Permite posicionar o contêiner de forma absoluta */
+    top: 60%; /* Define a posição vertical do contêiner */
+    left: 50%; /* Define a posição horizontal do contêiner */
+    transform: translate(-50%, -50%); /* Centraliza o contêiner em relação ao seu próprio tamanho */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
 }
+
 div#cadProf {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Margem inferior do elemento com ID 'cadProf' */
 }
-.wrapper h1{
-    font-size: 36px;
-    text-align: center;
-}
-.wrapper h4{
-    text-align: center;
-}
-.wrapper .input-box{
-    position: relative;
-    width: 100%;
-    height: 45px;
-    margin: 17px 0;
-}
-.input-box input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255,255,255.2);
-    border-radius: 40px;
-    font-size: 16px;
-    padding: 20px 45px 20px 20px;
-}
-.input-box input::placeholder{
-    color: black;
-}
-.input-box i{
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
-.wrapper .remember-forgot{
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-.remember-forgot  label input{
-    accent-color: #fff;
-    margin-right: 3px;
-}
-.remember-forgot a{
-    text-decoration: none;
-    color: black;
-}
-.remember-forgot a:hover{
-    text-decoration: underline;
-}
-.wrapper .btn{
-    width: 100%;
-    height: 40px;
-    color: #fff;
-    background: black;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0 .1);
-    font-size: 16px;
-    font-weight: 600;
-    transition: 750ms;
-}
-.wrapper .btn:hover{
-    transform:scale(1.05);
-}
-.wrapper .register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
 
+.wrapper h1 {
+    font-size: 36px; /* Tamanho da fonte do título dentro da wrapper */
+    text-align: center; /* Centraliza o título */
 }
-.register-link p a{
-    color: black;
-    text-decoration: none;
-    font-weight: 600;
 
+.wrapper h4 {
+    text-align: center; /* Centraliza o subtítulo */
 }
-.register-link p a:hover{
-    text-decoration: underline;
+
+.wrapper .input-box {
+    position: relative; /* Permite o posicionamento absoluto dos filhos */
+    width: 100%; /* Largura total do contêiner de entrada */
+    height: 45px; /* Altura do contêiner de entrada */
+    margin: 17px 0; /* Margens superior e inferior */
 }
-.textCad{
-    background-color: rgba(237, 237, 245, 0.747);
-    text-align: center;
-    width: 1000px;
-    box-shadow: 5px 5px 5px 5px rgba(10, 120, 184, 0.63);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -300%);
-    border-radius: 8px;
-    border: 3px solid rgba(25, 25, 126, 0.733);
-    color: black;
+
+.input-box input {
+    width: 100%; /* Largura total do campo de entrada */
+    height: 100%; /* Altura total do campo de entrada */
+    background: transparent; /* Fundo transparente */
+    border: none; /* Remove a borda padrão */
+    outline: none; /* Remove o contorno padrão */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borda semi-transparente */
+    border-radius: 40px; /* Arredonda os cantos do campo de entrada */
+    font-size: 16px; /* Tamanho da fonte do campo de entrada */
+    padding: 20px 45px 20px 20px; /* Preenchimento interno do campo de entrada */
 }
-.textCad h1{
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
+
+.input-box input::placeholder {
+    color: black; /* Define a cor do texto do placeholder como preto */
 }
-button#btnNew{
-    width: 440px;
+
+.input-box i {
+    position: absolute; /* Permite o posicionamento absoluto do ícone */
+    right: 20px; /* Posiciona o ícone à direita */
+    top: 50%; /* Centraliza verticalmente o ícone */
+    transform: translateY(-50%); /* Ajusta a posição vertical do ícone */
+    font-size: 20px; /* Tamanho do ícone */
 }
-button#btnNew2{
-    width: 440px;
+
+.wrapper .remember-forgot {
+    display: flex; /* Utiliza flexbox para layout dos itens */
+    justify-content: space-between; /* Espaça os itens entre si */
+    font-size: 14.5px; /* Tamanho da fonte da seção de lembrar/esquecer */
+    margin: -15px 0 15px; /* Margem negativa superior e margem inferior */
+}
+
+.remember-forgot label input {
+    accent-color: #fff; /* Define a cor de destaque do checkbox como branco */
+    margin-right: 3px; /* Margem à direita do checkbox */
+}
+
+.remember-forgot a {
+    text-decoration: none; /* Remove a decoração padrão de links */
+    color: black; /* Cor do texto dos links como preto */
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
+.wrapper .btn {
+    width: 100%; /* Largura total do botão */
+    height: 40px; /* Altura do botão */
+    color: #fff; /* Cor do texto do botão como branco */
+    background: black; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    outline: none; /* Remove o contorno padrão */
+    border-radius: 40px; /* Arredonda os cantos do botão */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    font-weight: 600; /* Define o peso da fonte como semi-negrito */
+    transition: 750ms; /* Define uma transição suave de 750ms para alterações de estilo */
+}
+
+.wrapper .btn:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do botão em 5% ao passar o mouse */
+}
+
+.wrapper .register-link {
+    font-size: 14.5px; /* Tamanho da fonte do link de registro */
+    text-align: center; /* Centraliza o texto do link de registro */
+    margin: 20px 0 15px; /* Margens superior e inferior */
+}
+
+.register-link p a {
+    color: black; /* Cor do texto do link como preto */
+    text-decoration: none; /* Remove a decoração padrão do link */
+    font-weight: 600; /* Define o peso da fonte do link como semi-negrito */
+}
+
+.register-link p a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
+.textCad {
+    background-color: rgba(237, 237, 245, 0.747); /* Cor de fundo semi-transparente */
+    text-align: center; /* Centraliza o texto */
+    width: 1000px; /* Largura da seção de texto */
+    display: flex; /* Utiliza flexbox para layout */
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    position: absolute; /* Permite posicionar a seção de texto de forma absoluta */
+    top: 20%; /* Define a posição superior da seção de texto */
+    left: 50%; /* Define a posição à esquerda da seção de texto */
+    transform: translate(-50%, -300%); /* Centraliza a seção de texto ajustando sua posição */
+    border-radius: 8px; /* Arredonda os cantos da seção de texto */
+    border: 3px solid rgba(0, 0, 0, 0.733); /* Borda ao redor da seção de texto */
+    color: black; /* Cor do texto na seção de texto */
+}
+
+.textCad h1 {
+    font-size: 60px; /* Tamanho da fonte do título na seção de texto */
+    font-weight: 600; /* Define o peso da fonte como semi-negrito */
+    text-transform: uppercase; /* Transforma o texto para maiúsculas */
+}
+
+button#btnNew {
+    width: 440px; /* Largura do botão 'btnNew' */
+}
+
+button#btnNew2 {
+    width: 440px; /* Largura do botão 'btnNew2' */
 }

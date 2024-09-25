@@ -17,43 +17,58 @@
 <body>
     <div class="container-fluid">
 
-        <div class="cadastro2">
-            <div class="textCad">
-                <h1><strong>Criar uma conta Aluno</strong></h1>
+        <div class="cadastro2"> <!-- Divisão que envolve o formulário de cadastro para alunos -->
+            <div class="textCad"> <!-- Div para o título da seção -->
+                <h1><strong>Criar uma conta Aluno</strong></h1> <!-- Título principal da seção -->
             </div>
-            <div class="wrapper">
+            <div class="wrapper"> <!-- Wrapper para estilização e layout do formulário -->
                 <form action="">
-                    <h1>Cadastrar</h1>
-                    <h4>Informe seu usuario, email e senha</h4>
-                    <div class="input-box">
+                    <!-- Início do formulário, com atributo action para o destino ao ser enviado (atualmente vazio) -->
+                    <h1>Cadastrar</h1> <!-- Título do formulário -->
+                    <h4>Informe seu usuario, email e senha</h4> <!-- Instrução para o usuário -->
+
+                    <div class="input-box"> <!-- Caixa de entrada para o email -->
                         <input type="text" placeholder="email" required>
-                        <i class='bx bx-envelope'></i>
+                        <!-- Campo de entrada para email, obrigatório -->
+                        <i class='bx bx-envelope'></i> <!-- Ícone de envelope associado ao campo -->
                     </div>
-                    <div class="input-box">
+
+                    <div class="input-box"> <!-- Caixa de entrada para o nome de usuário -->
                         <input type="text" placeholder="usuário" required>
-                        <i class='bx bxs-user'></i>
+                        <!-- Campo de entrada para usuário, obrigatório -->
+                        <i class='bx bxs-user'></i> <!-- Ícone de usuário associado ao campo -->
                     </div>
-                    <div class="input-box">
+
+                    <div class="input-box"> <!-- Caixa de entrada para a senha -->
                         <input type="password" placeholder="Senha" required>
-                        <i class='bx bxs-lock-alt'></i>
+                        <!-- Campo de entrada para senha, obrigatório -->
+                        <i class='bx bxs-lock-alt'></i> <!-- Ícone de cadeado associado ao campo -->
                     </div>
-                    <div class="input-box">
+
+                    <div class="input-box"> <!-- Caixa de entrada para confirmar a senha -->
                         <input type="password" placeholder=" Confirme a Senha" required>
-                        <i class='bx bxs-lock-alt'></i>
+                        <!-- Campo de entrada para confirmação de senha, obrigatório -->
+                        <i class='bx bxs-lock-alt'></i> <!-- Ícone de cadeado associado ao campo -->
                     </div>
-                    <div class="input-box">
+
+                    <div class="input-box"> <!-- Caixa de entrada para a turma -->
                         <input type="password" placeholder=" Turma" required>
-                        <i class='bx bx-walk'></i>
+                        <!-- Campo de entrada para turma, obrigatório -->
+                        <i class='bx bx-walk'></i> <!-- Ícone associado ao campo -->
                     </div>
-                    <div class="remember-forgot">
-                        <label><input type="checkbox">Lembrar-me</label>
+
+                    <div class="remember-forgot"> <!-- Div para a opção de lembrar do usuário -->
+                        <label><input type="checkbox">Lembrar-me</label> <!-- Checkbox para lembrar do usuário -->
                     </div>
-                    <a href="index.html">
+
+                    <a href="index.html"> <!-- Link que envolve o botão de cadastro -->
                         <button type="button" class="btn">Cadastrar</button>
+                        <!-- Botão que aciona o cadastro (atualmente não submete o formulário) -->
                     </a>
                 </form>
             </div>
         </div>
+
 
 </body>
 

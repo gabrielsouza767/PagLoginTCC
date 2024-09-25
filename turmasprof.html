@@ -13,82 +13,104 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div id="genTurmas">
-            <div class="textTurmas">
-                <h1>
-                    Gerenciar suas turmas!
-                </h1>
+    <div class="container-fluid"> <!-- Contêiner fluido que ocupa 100% da largura da tela -->
+        <div id="genTurmas"> <!-- Divisão para gerenciar turmas -->
+            <div class="textTurmas"> <!-- Div para o título da seção de gerenciamento de turmas -->
+                <h1>Gerenciar suas turmas!</h1> <!-- Título principal da seção -->
             </div>
+
+            <!-- Primeira turma -->
             <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="divTurmas1">
-                <label for="exampleInputPassword1"></label>
-                <input class="form-control" type="text" placeholder="Turmas" aria-label="Disabled input example" disabled id="turmas">
-                <button class="btn  btn-outline-danger " type="button" id="btnTurmas1" onclick="clicado()">Remover</button>
+                <label for="exampleInputPassword1"></label> <!-- Label vazio, pode ser removido -->
+                <input class="form-control" type="text" placeholder="Turmas" aria-label="Disabled input example"
+                    disabled id="turmas"> <!-- Campo de texto desabilitado para mostrar o nome da turma -->
+                <button class="btn btn-outline-danger" type="button" id="btnTurmas1"
+                    onclick="clicado()">Remover</button> <!-- Botão para remover a turma -->
             </div>
+
+            <!-- Segunda turma -->
             <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="divTurmas2">
-                <label for="exampleInputPassword1"></label>
-                <input class="form-control" type="text" placeholder="Turmas" aria-label="Disabled input example" disabled id="turmas">
-                <button class="btn  btn-outline-danger " type="button" id="btnTurmas2" onclick="clicado()">Remover</button>
+                <label for="exampleInputPassword1"></label> <!-- Label vazio, pode ser removido -->
+                <input class="form-control" type="text" placeholder="Turmas" aria-label="Disabled input example"
+                    disabled id="turmas"> <!-- Campo de texto desabilitado para mostrar o nome da turma -->
+                <button class="btn btn-outline-danger" type="button" id="btnTurmas2"
+                    onclick="clicado()">Remover</button> <!-- Botão para remover a turma -->
             </div>
+
+            <!-- Terceira turma -->
             <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="divTurmas3">
-                <label for="exampleInputPassword1"></label>
-                <input class="form-control" type="text" placeholder="Turmas" aria-label="Disabled input example" disabled id="turmas">
-                <button class="btn  btn-outline-danger " type="button" id="btnTurmas3" onclick="clicado()">Remover</button>
+                <label for="exampleInputPassword1"></label> <!-- Label vazio, pode ser removido -->
+                <input class="form-control" type="text" placeholder="Turmas" aria-label="Disabled input example"
+                    disabled id="turmas"> <!-- Campo de texto desabilitado para mostrar o nome da turma -->
+                <button class="btn btn-outline-danger" type="button" id="btnTurmas3"
+                    onclick="clicado()">Remover</button> <!-- Botão para remover a turma -->
             </div>
-            <!-- Button trigger modal -->
+
+            <!-- Botão para abrir o modal de adicionar turma -->
             <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal"
                 id="btnModal">
                 Adicionar turma
             </button>
-            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="btnTurmas6">
+
+            <!-- Botão para mostrar um menu dropdown de estatísticas -->
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                id="btnTurmas6">
                 Estatísticas da turma
-              </button>
-              <ul class="dropdown-menu">
+            </button>
+            <ul class="dropdown-menu"> <!-- Menu dropdown com links para estatísticas de diferentes turmas -->
                 <li><a class="dropdown-item" href="estatisticas.html">Turma 1</a></li>
                 <li><a class="dropdown-item" href="estatisticas.html">Turma 2</a></li>
                 <li><a class="dropdown-item" href="estatisticas.html">Turma 3</a></li>
-              </ul>
+            </ul>
         </div>
     </div>
 </body>
+
+<!-- Modal para adicionar uma nova turma -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Adicionar Turma</h1>
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <!-- Diálogo do modal, centralizado e com rolagem -->
+        <div class="modal-content"> <!-- Conteúdo do modal -->
+            <div class="modal-header"> <!-- Cabeçalho do modal -->
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Adicionar Turma</h1> <!-- Título do modal -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!-- Botão para fechar o modal -->
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1"></label>
+            <div class="modal-body"> <!-- Corpo do modal, onde o formulário está localizado -->
+                <form> <!-- Início do formulário para adicionar turma -->
+                    <div class="form-group"> <!-- Grupo de formulário para o nome da turma -->
+                        <label for="exampleInputEmail1"></label> <!-- Label vazio, pode ser removido -->
                         <input type="email" class="form-control" id="inputTurma" aria-describedby="emailHelp"
-                            placeholder="Nome da turma">
+                            placeholder="Nome da turma"> <!-- Campo para o nome da turma -->
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1"></label>
+                    <div class="form-group"> <!-- Grupo de formulário para o código da turma -->
+                        <label for="exampleInputPassword1"></label> <!-- Label vazio, pode ser removido -->
                         <input type="password" class="form-control" id="codTurma" placeholder="Código da turma">
+                        <!-- Campo para o código da turma -->
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1"></label>
+                    <div class="form-group"> <!-- Grupo de formulário para a senha -->
+                        <label for="exampleInputPassword1"></label> <!-- Label vazio, pode ser removido -->
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        <!-- Campo para a senha -->
                     </div>
-                    <div class="mb-3 form-check">
+                    <div class="mb-3 form-check"> <!-- Espaço para checkbox (pode ser adicionado no futuro) -->
                     </div>
-                    <div class="form-group">
+                    <div class="form-group"> <!-- Grupo de formulário para confirmar a senha -->
                         <label for="exampleInputPassword1">
-                            <h3> <strong>Confirme a senha:</strong></h3>
+                            <h3><strong>Confirme a senha:</strong></h3> <!-- Título para confirmar a senha -->
                         </label>
                         <input type="password" class="form-control" id="exampleInputPassword1"
-                            placeholder="Confirme a senha">
+                            placeholder="Confirme a senha"> <!-- Campo para confirmar a senha -->
                     </div>
-                    <div class="mb-3 form-check">
+                    <div class="mb-3 form-check"> <!-- Espaço para checkbox (pode ser adicionado no futuro) -->
                     </div>
                 </form>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer"> <!-- Rodapé do modal -->
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <!-- Botão para cancelar e fechar o modal -->
                 <button type="button" class="btn btn-dark">Confirmar</button>
+                <!-- Botão para confirmar a adição da turma -->
             </div>
         </div>
     </div>

@@ -1,105 +1,155 @@
-body{
+body {
     background-image: url(img/Sala\ 1920.png);
+    /* Define uma imagem de fundo para o corpo da página */
     font: normal 18pt Arial;
+    /* Define a fonte padrão da página como Arial, tamanho 18pt */
     background-repeat: no-repeat;
+    /* A imagem de fundo não se repetirá */
     background-attachment: fixed;
+    /* A imagem de fundo permanecerá fixa durante a rolagem */
     background-position: center center;
+    /* A imagem de fundo será centralizada */
     background-size: cover;
+    /* A imagem de fundo cobrirá toda a área visível */
     display: grid;
+    /* Utiliza o grid layout */
     place-items: center;
+    /* Centraliza os itens do grid */
 }
-div#divTurmOne{
+
+div#divTurmOne, div#divTurmTwo, div#divTurmTree {
     margin-bottom: 10px;
+    /* Define uma margem inferior de 10px para cada div */
 }
-div#divTurmTwo{
-    margin-bottom: 10px;
-}
-div#divTurmTree{
-    margin-bottom: 10px;
-}
-button#btnTurm1{
+
+button#btnTurm1, button#btnTurm2, button#btnTurm3 {
     height: 40px;
+    /* Define a altura dos botões */
     transition: 750ms;
+    /* Define uma transição suave de 750ms para alterações de estilo */
 }
-button#btnTurm2{
-    height: 40px;
-    transition: 750ms;
+
+button#btnTurm1:hover, button#btnTurm2:hover, button#btnTurm3:hover {
+    transform: scale(1.10);
+    /* Aumenta o tamanho do botão em 10% quando o mouse passa por cima */
 }
-button#btnTurm3{
-    height: 40px;
-    transition: 750ms;
-}
-button#btnTurm1:hover{
-    transform:scale(1.10);
-}
-button#btnTurm2:hover{
-    transform:scale(1.10);
-}
-button#btnTurm3:hover{
-    transform:scale(1.10);
-}
-.estatisticas{
+
+.estatisticas {
     width: 700px;
+    /* Define a largura da seção de estatísticas */
     height: 400px;
+    /* Define a altura da seção de estatísticas */
     padding: 30px 40px;
+    /* Define o preenchimento interno */
     border-radius: 10px;
+    /* Arredonda os cantos da seção */
     align-items: center;
+    /* Alinha itens ao centro (aplicável a um flex container) */
     position: absolute;
+    /* Posiciona a seção de forma absoluta */
     top: 25%;
+    /* Define a posição superior da seção */
     left: 30%;
+    /* Define a posição à esquerda da seção */
     background-color: rgba(0, 0, 0, 0.795);
+    /* Define uma cor de fundo semi-transparente */
     border: 3px solid #fff;
+    /* Define uma borda branca */
     backdrop-filter: blur(5px);
+    /* Aplica um efeito de desfoque ao fundo */
 }
-.tittleTurm{
+
+.tittleTurm {
     height: 50px;
+    /* Define a altura da seção de título */
     border-radius: 5px;
+    /* Arredonda os cantos da seção */
     text-align: center;
+    /* Centraliza o texto */
     display: flex;
+    /* Utiliza flexbox para alinhamento */
     justify-content: center;
+    /* Centraliza horizontalmente */
     background-color: rgba(240, 248, 255, 0.603);
+    /* Define uma cor de fundo semi-transparente */
     margin-top: 30px;
+    /* Define margem superior */
     margin-bottom: 80px;
-    padding: 5px 5px 5px 5px;
+    /* Define margem inferior */
+    padding: 5px;
+    /* Define o preenchimento interno */
 }
-.tittleTurm h3{
+
+.tittleTurm h3 {
     font-size: 30px;
+    /* Define o tamanho da fonte do título */
     font-weight: 600;
+    /* Define o peso da fonte como semi-negrito */
 }
-.infoTurma{
+
+.infoTurma {
     background-color: #fff;
+    /* Define a cor de fundo como branca */
     width: 90%;
+    /* Define a largura da seção de informações como 90% da largura do contêiner pai */
     height: 90%;
+    /* Define a altura da seção de informações como 90% */
     text-align: center;
+    /* Centraliza o texto */
     padding: 30px 40px;
+    /* Define o preenchimento interno */
     border-radius: 10px;
+    /* Arredonda os cantos da seção */
     align-items: center;
+    /* Alinha itens ao centro (aplicável a um flex container) */
     position: absolute;
+    /* Posiciona a seção de forma absoluta */
     top: 5%;
+    /* Define a posição superior da seção */
     border: 5px solid black;
+    /* Define uma borda preta */
     backdrop-filter: blur(5px);
+    /* Aplica um efeito de desfoque ao fundo */
 }
-.infoTurma h1{
+
+.infoTurma h1 {
     font-size: 40px;
+    /* Define o tamanho da fonte do título da turma */
     font-weight: 600;
+    /* Define o peso da fonte como semi-negrito */
 }
-.chart{
+
+.chart {
     width: 400px;
+    /* Define a largura do gráfico */
     height: 300px;
+    /* Define a altura do gráfico */
     margin-top: 30px;
+    /* Define uma margem superior */
 }
-.linksTurms{
-    position:absolute;
+
+.linksTurms {
+    position: absolute;
+    /* Posiciona a seção de links de forma absoluta */
     top: 30%;
+    /* Define a posição superior da seção */
     left: 35%;
+    /* Define a posição à esquerda da seção */
 }
-.linksTurms a{
+
+.linksTurms a {
     text-decoration: none;
+    /* Remove a decoração padrão de links */
     color: black;
+    /* Define a cor do texto dos links como preto */
 }
-.linksTurms a:hover{
+
+.linksTurms a:hover {
     text-decoration: underline;
+    /* Aplica sublinhado aos links quando o mouse passa por cima */
 }
-.infoTurma a{
+
+.infoTurma a {
     width: 40%;
+    /* Define a largura dos links dentro da seção de informações da turma */
 }

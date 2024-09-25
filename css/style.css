@@ -1,130 +1,266 @@
-
-*{
+* {
     margin: 0;
+    /* Remove a margem padrão de todos os elementos */
     padding: 0;
+    /* Remove o preenchimento padrão de todos os elementos */
     box-sizing: border-box;
+    /* Define que o padding e a borda estão incluídos na largura e altura total do elemento */
 }
+
 body {
     background-image: url(img/pixels.gif);
+    /* Define uma imagem de fundo animada */
     background-repeat: no-repeat;
+    /* A imagem de fundo não se repetirá */
     background-size: cover;
+    /* A imagem de fundo cobrirá toda a área visível */
     background-attachment: fixed;
-    background-position: center ;
+    /* A imagem de fundo permanecerá fixa durante a rolagem */
+    background-position: center;
+    /* A imagem de fundo será centralizada */
     font: normal 18pt Arial;
+    /* Define a fonte padrão da página como Arial, tamanho 18pt */
     display: flex;
+    /* Utiliza flexbox para o layout */
     justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
     align-items: center;
+    /* Centraliza o conteúdo verticalmente */
     min-height: 100vh;
+    /* Define a altura mínima do corpo como 100% da altura da viewport */
 }
-.wrapper{
+
+.wrapper {
     width: 420px;
+    /* Define a largura do contêiner do formulário */
     background-color: rgba(240, 248, 255, 0.527);
+    /* Cor de fundo semi-transparente */
     border-radius: 10px;
+    /* Arredonda os cantos do contêiner */
     padding: 30px 40px;
-    border: 2px solid rgba(255, 255, 255 .2);
+    /* Define o preenchimento interno */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    /* Borda semi-transparente */
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
+    /* Sombra ao redor do contêiner */
     margin-top: 100px;
+    /* Margem superior de 100px */
     backdrop-filter: blur(5px);
+    /* Aplica um efeito de desfoque ao fundo do contêiner */
 }
-.wrapper h1{
+
+.wrapper h1 {
     font-size: 36px;
+    /* Tamanho da fonte do título */
     text-align: center;
+    /* Centraliza o título */
 }
-.wrapper h4{
+
+.wrapper h4 {
     text-align: center;
+    /* Centraliza o subtítulo */
 }
-.wrapper .input-box{
+
+.wrapper .input-box {
     position: relative;
+    /* Permite o posicionamento absoluto dos filhos */
     width: 100%;
+    /* Largura total do contêiner de entrada */
     height: 50px;
+    /* Altura do contêiner de entrada */
     margin: 30px 0;
+    /* Margem superior e inferior */
 }
-.input-box input{
+
+.input-box input {
     width: 100%;
+    /* Largura total do campo de entrada */
     height: 100%;
+    /* Altura total do campo de entrada */
     background: transparent;
+    /* Fundo transparente */
     border: none;
+    /* Remove a borda padrão */
     outline: none;
-    border: 2px solid rgba(255,255,255.2);
+    /* Remove o contorno padrão */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    /* Borda semi-transparente */
     border-radius: 40px;
+    /* Arredonda os cantos do campo de entrada */
     font-size: 16px;
+    /* Tamanho da fonte do campo de entrada */
     padding: 20px 45px 20px 20px;
+    /* Preenchimento interno do campo de entrada */
 }
-.input-box input::placeholder{
+
+.input-box input::placeholder {
     color: black;
+    /* Define a cor do texto do placeholder como preto */
 }
-.input-box i{
+
+.input-box i {
     position: absolute;
+    /* Permite o posicionamento absoluto do ícone */
     right: 20px;
+    /* Posiciona o ícone à direita */
     top: 50%;
+    /* Centraliza verticalmente o ícone */
     transform: translateY(-50%);
+    /* Ajusta a posição vertical do ícone */
     font-size: 20px;
+    /* Tamanho do ícone */
 }
-.wrapper .remember-forgot{
+
+.wrapper .remember-forgot {
     display: flex;
+    /* Utiliza flexbox para layout dos itens */
     justify-content: space-between;
+    /* Espaça os itens entre si */
     font-size: 14.5px;
+    /* Tamanho da fonte da seção de lembrar/esquecer */
     margin: -15px 0 15px;
+    /* Margem negativa superior e margem inferior */
 }
-.remember-forgot  label input{
+
+.remember-forgot label input {
     accent-color: #fff;
+    /* Define a cor de destaque do checkbox como branco */
     margin-right: 3px;
+    /* Margem à direita do checkbox */
 }
-.remember-forgot a{
+
+.remember-forgot a {
     text-decoration: none;
+    /* Remove a decoração padrão de links */
     color: black;
+    /* Define a cor do texto dos links como preto */
 }
-.remember-forgot a:hover{
+
+.remember-forgot a:hover {
     text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse sobre o link */
 }
-.wrapper .btn{
+
+.wrapper .btn {
     width: 100%;
+    /* Largura total do botão */
     height: 45px;
+    /* Altura do botão */
     color: #fff;
+    /* Cor do texto do botão como branco */
     background: black;
+    /* Cor de fundo do botão */
     border: none;
+    /* Remove a borda padrão */
     outline: none;
+    /* Remove o contorno padrão */
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0 .1);
+    /* Arredonda os cantos do botão */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra leve ao redor do botão */
     font-size: 16px;
+    /* Tamanho da fonte do botão */
     font-weight: 600;
+    /* Define o peso da fonte como semi-negrito */
     transition: 750ms;
+    /* Define uma transição suave de 750ms para alterações de estilo */
 }
-.wrapper .btn:hover{
-    transform:scale(1.05);
+
+.wrapper .btn:hover {
+    transform: scale(1.05);
+    /* Aumenta o tamanho do botão em 5% ao passar o mouse */
 }
-.wrapper .register-link{
+
+.wrapper .register-link {
     font-size: 14.5px;
+    /* Tamanho da fonte do link de registro */
     text-align: center;
+    /* Centraliza o texto do link de registro */
     margin: 20px 0 15px;
-
+    /* Margens superior e inferior */
 }
-.register-link p a{
+
+.register-link p a {
     color: black;
+    /* Cor do texto do link como preto */
     text-decoration: none;
+    /* Remove a decoração padrão do link */
     font-weight: 600;
+    /* Define o peso da fonte do link como semi-negrito */
+}
 
-}
-.register-link p a:hover{
+.register-link p a:hover {
     text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse sobre o link */
 }
-.titulo{
+
+.titulo {
     background-color: rgba(240, 248, 255, 0.432);
+    /* Cor de fundo semi-transparente */
     text-align: center;
+    /* Centraliza o texto */
     height: 100px;
+    /* Altura da seção de título */
     width: 1900px;
+    /* Largura da seção de título */
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.678);
+    /* Sombra ao redor da seção */
     display: flex;
+    /* Utiliza flexbox para alinhamento */
     align-items: center;
+    /* Centraliza verticalmente */
     justify-content: center;
+    /* Centraliza horizontalmente */
     position: absolute;
+    /* Posiciona a seção de título de forma absoluta */
     top: 40%;
+    /* Define a posição superior da seção */
     left: 50%;
+    /* Define a posição à esquerda da seção */
     transform: translate(-50%, -250%);
+    /* Centraliza a seção de título ajustando sua posição */
     margin-bottom: 100px;
+    /* Margem inferior de 100px */
 }
-.titulo h1{
+
+.titulo h1 {
     font-size: 60px;
+    /* Tamanho da fonte do título */
     font-weight: 600;
+    /* Define o peso da fonte como semi-negrito */
     text-transform: uppercase;
+    /* Transforma o texto para maiúsculas */
+}
+
+.esqueceSenha {
+    height: 400px;
+    /* Altura da seção de recuperação de senha */
+    width: 60%;
+    /* Largura da seção de recuperação de senha */
+    border-radius: 10px;
+    /* Arredonda os cantos da seção */
+    box-shadow: 5px rgba(0, 0, 0, 0.603);
+    /* Sombra ao redor da seção */
+    background-color: #ffffffe8;
+    /* Cor de fundo com leve transparência */
+    text-align: center;
+    /* Centraliza o texto na seção */
+    padding: 20px;
+    /* Preenchimento interno da seção */
+    border: 5px black solid;
+    /* Borda preta ao redor da seção */
+}
+
+.esqueceSenha input {
+    width: 80%;
+    /* Largura dos campos de entrada na seção de recuperação de senha */
+    height: 10%;
+    /* Altura dos campos de entrada na seção de recuperação de senha */
+}
+
+.esqueceSenha button {
+    width: 15%;
+    /* Largura dos botões na seção de recuperação de senha */
+    height: 10%;
+    /* Altura dos botões na seção de recuperação de senha */
 }

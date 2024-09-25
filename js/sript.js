@@ -4,3 +4,4 @@ function clicou(){
 function clicado(){
     let resp=window.prompt("Confirme com o nome da turma:")
 }
+

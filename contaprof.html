@@ -15,42 +15,54 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="cadastro">
-      <div class="textCad">
-        <h1>Criar uma conta Professor</h1>
-      </div>
-      <div class="wrapper">
-        <form action="">
-          <h1>Cadastrar</h1>
-          <h4>Informe seu usuario, email e senha</h4>
-          <div class="input-box">
-            <input type="text" placeholder="email" required>
-            <i class='bx bx-envelope'></i>
-          </div>
-          <div class="input-box">
-            <input type="text" placeholder="usuário" required>
-            <i class='bx bxs-user'></i>
-          </div>
-          <div class="input-box">
-            <input type="password" placeholder="Senha" required>
-            <i class='bx bxs-lock-alt'></i>
-          </div>
-          <div class="input-box">
-            <input type="password" placeholder=" Confirme a Senha" required>
-            <i class='bx bxs-lock-alt'></i>
-          </div>
-          <div class="remember-forgot">
-            <label><input type="checkbox">Lembrar-me</label>
-          </div>
-          <a href="turmasprof.html">
-            <button type="button" class="btn">Cadastrar</button>
-          </a>
-        </form>
-      </div>
-    </div>
+  <div class="container-fluid"> <!-- Contêiner fluido que ocupa 100% da largura da tela -->
+    <div class="cadastro"> <!-- Divisão que agrupa a seção de cadastro -->
+        <div class="textCad"> <!-- Div para o título da seção de cadastro -->
+            <h1>Criar uma conta Professor</h1> <!-- Título principal da página de cadastro -->
+        </div>
+        <div class="wrapper"> <!-- Div que envolve o formulário para melhor estilização -->
+            <form action=""> <!-- Formulário de cadastro -->
+                <h1>Cadastrar</h1> <!-- Cabeçalho do formulário -->
+                <h4>Informe seu usuario, email e senha</h4> <!-- Instruções para o usuário -->
 
-  </div>
+                <!-- Campo de entrada para email -->
+                <div class="input-box">
+                    <input type="text" placeholder="email" required> <!-- Campo para o email -->
+                    <i class='bx bx-envelope'></i> <!-- Ícone de envelope ao lado do campo -->
+                </div>
+
+                <!-- Campo de entrada para o nome de usuário -->
+                <div class="input-box">
+                    <input type="text" placeholder="usuário" required> <!-- Campo para o nome de usuário -->
+                    <i class='bx bxs-user'></i> <!-- Ícone de usuário ao lado do campo -->
+                </div>
+
+                <!-- Campo de entrada para a senha -->
+                <div class="input-box">
+                    <input type="password" placeholder="Senha" required> <!-- Campo para senha -->
+                    <i class='bx bxs-lock-alt'></i> <!-- Ícone de cadeado ao lado do campo -->
+                </div>
+
+                <!-- Campo para confirmar a senha -->
+                <div class="input-box">
+                    <input type="password" placeholder="Confirme a Senha" required> <!-- Campo para confirmação da senha -->
+                    <i class='bx bxs-lock-alt'></i> <!-- Ícone de cadeado ao lado do campo -->
+                </div>
+
+                <!-- Opção para lembrar o usuário -->
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Lembrar-me</label> <!-- Checkbox para lembrar do usuário -->
+                </div>
+
+                <!-- Botão para enviar o formulário, redirecionando para a página de turmas -->
+                <a href="turmasprof.html">
+                    <button type="button" class="btn">Cadastrar</button> <!-- Botão para cadastrar -->
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
 
 </body>
 
