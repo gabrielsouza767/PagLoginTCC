@@ -20,7 +20,7 @@ body {
 div#genTurmas {
     width: 450px;
     /* Largura do contêiner para geração de turmas */
-    height: 400px;
+    height: 300px;
     /* Altura do contêiner */
     background-color: rgba(0, 0, 0, 0.774);
     /* Fundo semi-transparente escuro */

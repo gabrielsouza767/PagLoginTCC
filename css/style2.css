@@ -26,7 +26,7 @@ body {
 
 .cadastro2 {
     width: 500px; /* Largura do segundo contêiner de cadastro */
-    height: 520px; /* Altura do segundo contêiner de cadastro */
+    height: 540px; /* Altura do segundo contêiner de cadastro */
     color: #fff; /* Cor do texto dentro do contêiner */
     background-color: rgba(1, 5, 8, 0.801); /* Fundo semi-transparente escuro */
     padding: 30px; /* Preenchimento interno do contêiner */
