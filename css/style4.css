@@ -134,9 +134,14 @@ button#btnTurm1:hover, button#btnTurm2:hover, button#btnTurm3:hover {
     top: 30%;
     /* Define a posição superior da seção */
     left: 35%;
+    height: 40%;
+    width: 50%;
     /* Define a posição à esquerda da seção */
+    overflow-y: scroll;
 }
-
+.linksTurms button{
+    margin: 3px;
+}
 .linksTurms a {
     text-decoration: none;
     /* Remove a decoração padrão de links */
