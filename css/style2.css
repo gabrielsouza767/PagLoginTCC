@@ -72,7 +72,7 @@ div#cadProf {
 }
 
 .input-box input::placeholder {
-    color: black; /* Define a cor do texto do placeholder como preto */
+    color: #fff; /* Define a cor do texto do placeholder como preto */
 }
 
 .input-box i {
