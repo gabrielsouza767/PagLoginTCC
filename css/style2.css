@@ -33,7 +33,7 @@ body {
     border-radius: 10px; /* Arredonda os cantos do contêiner */
     border: 3px solid #fff; /* Borda branca ao redor do contêiner */
     position: absolute; /* Permite posicionar o contêiner de forma absoluta */
-    top: 60%; /* Define a posição vertical do contêiner */
+    top: 55%; /* Define a posição vertical do contêiner */
     left: 50%; /* Define a posição horizontal do contêiner */
     transform: translate(-50%, -50%); /* Centraliza o contêiner em relação ao seu próprio tamanho */
     text-align: center; /* Centraliza o texto dentro do contêiner */
@@ -136,28 +136,6 @@ div#cadProf {
 
 .register-link p a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
-}
-
-.textCad {
-    background-color: rgba(237, 237, 245, 0.747); /* Cor de fundo semi-transparente */
-    text-align: center; /* Centraliza o texto */
-    width: 1000px; /* Largura da seção de texto */
-    display: flex; /* Utiliza flexbox para layout */
-    align-items: center; /* Centraliza verticalmente os itens */
-    justify-content: center; /* Centraliza horizontalmente os itens */
-    position: absolute; /* Permite posicionar a seção de texto de forma absoluta */
-    top: 20%; /* Define a posição superior da seção de texto */
-    left: 50%; /* Define a posição à esquerda da seção de texto */
-    transform: translate(-50%, -300%); /* Centraliza a seção de texto ajustando sua posição */
-    border-radius: 8px; /* Arredonda os cantos da seção de texto */
-    border: 3px solid rgba(0, 0, 0, 0.733); /* Borda ao redor da seção de texto */
-    color: black; /* Cor do texto na seção de texto */
-}
-
-.textCad h1 {
-    font-size: 60px; /* Tamanho da fonte do título na seção de texto */
-    font-weight: 600; /* Define o peso da fonte como semi-negrito */
-    text-transform: uppercase; /* Transforma o texto para maiúsculas */
 }
 
 button#btnNew {
