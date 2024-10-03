@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
 body {
     background-image: url(img/pixels.gif);
     /* Define uma imagem de fundo animada */
@@ -16,7 +17,7 @@ body {
     place-items: center;
     /* Centraliza os itens do grid */
 }
-
+ 
 div#genTurmas {
     width: 450px;
     /* Largura do contêiner para geração de turmas */
@@ -41,7 +42,7 @@ div#genTurmas {
     text-align: center;
     /* Centraliza o texto dentro do contêiner */
 }
-
+ 
 button#btnTurmas1,
 button#btnTurmas2,
 button#btnTurmas3 {
@@ -50,40 +51,41 @@ button#btnTurmas3 {
     transition: 750ms;
     /* Transição suave de 750ms para alterações de estilo */
 }
-
+ 
 button#btnTurmas1:hover,
 button#btnTurmas2:hover,
 button#btnTurmas3:hover {
     transform: scale(1.10);
     /* Aumenta o tamanho do botão em 10% ao passar o mouse */
 }
-
+ 
 button#btnSenha {
     height: 40px;
     /* Altura do botão de senha */
     width: 150px;
     /* Largura do botão de senha */
 }
-
+ 
 div#divTurmas1,
 div#divTurmas2,
 div#divTurmas3 {
     margin-bottom: 10px;
     /* Margem inferior dos contêineres de turmas */
 }
-
+ 
 button#btnModal {
     width: 400px;
     /* Largura do botão do modal */
     transition: 750ms;
     /* Transição suave de 750ms para alterações de estilo */
+    margin: 10px;
 }
-
+ 
 button#btnModal:hover {
     transform: scale(1.05);
     /* Aumenta o tamanho do botão do modal em 5% ao passar o mouse */
 }
-
+ 
 .textTurmas {
     background-color: rgba(240, 248, 255, 0.644);
     /* Cor de fundo semi-transparente */
@@ -110,7 +112,7 @@ button#btnModal:hover {
     border-radius: 10px;
     /* Arredonda os cantos da seção de texto */
 }
-
+ 
 .textTurmas h1 {
     font-size: 40px;
     /* Tamanho da fonte do título na seção de turmas */
@@ -118,8 +120,9 @@ button#btnModal:hover {
     /* Define o peso da fonte como semi-negrito */
     text-transform: uppercase;
     /* Transforma o texto para maiúsculas */
+    font-family: "Audiowide", sans-serif;
 }
-
+ 
 div#genSenha {
     width: 450px;
     /* Largura do contêiner para geração de senha */
@@ -136,7 +139,7 @@ div#genSenha {
     text-align: center;
     /* Centraliza o texto dentro do contêiner */
 }
-
+ 
 .cont1 {
     display: flex;
     /* Utiliza flexbox para layout */
@@ -151,12 +154,12 @@ div#genSenha {
     transition: 750ms;
     /* Transição suave de 750ms para alterações de estilo */
 }
-
+ 
 .cont1:hover {
     transform: scale(1.05);
     /* Aumenta o tamanho do contêiner em 5% ao passar o mouse */
 }
-
+ 
 .cont2 {
     display: flex;
     /* Utiliza flexbox para layout */
@@ -171,12 +174,12 @@ div#genSenha {
     transition: 750ms;
     /* Transição suave de 750ms para alterações de estilo */
 }
-
+ 
 .cont2:hover {
     transform: scale(1.05);
     /* Aumenta o tamanho do contêiner em 5% ao passar o mouse */
 }
-
+ 
 .titulo {
     background-color: rgba(240, 248, 255, 0.432);
     /* Cor de fundo semi-transparente */
@@ -205,7 +208,7 @@ div#genSenha {
     margin-bottom: 100px;
     /* Margem inferior da seção de título */
 }
-
+ 
 .titulo h1 {
     font-size: 60px;
     /* Tamanho da fonte do título */
@@ -214,7 +217,7 @@ div#genSenha {
     text-transform: uppercase;
     /* Transforma o texto para maiúsculas */
 }
-
+ 
 button#btnTurmas6 {
     margin-top: 10px;
     /* Margem superior do botão */
@@ -223,8 +226,20 @@ button#btnTurmas6 {
     transition: 750ms;
     /* Transição suave de 750ms para alterações de estilo */
 }
-
+ 
 button#btnTurmas6:hover {
     transform: scale(1.10);
     /* Aumenta o tamanho do botão em 10% ao passar o mouse */
+}
+.LinkTurm1{
+    width: 75%;
+    transition: 750ms;
+}
+.LinkTurm1:hover{
+    transform: scale(1.05);
+}
+.Turmas{
+    height: 200px;
+    padding: 15px;
+    overflow-y: scroll;
 }
