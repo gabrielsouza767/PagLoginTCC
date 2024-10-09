@@ -18,7 +18,7 @@ body {
     border-radius: 10px; /* Arredonda os cantos do contêiner */
     border: 3px solid #fff; /* Borda branca ao redor do contêiner */
     position: absolute; /* Permite posicionar o contêiner de forma absoluta */
-    top: 60%; /* Define a posição vertical do contêiner */
+    top: 50%; /* Define a posição vertical do contêiner */
     left: 50%; /* Define a posição horizontal do contêiner */
     transform: translate(-50%, -50%); /* Centraliza o contêiner em relação ao seu próprio tamanho */
     text-align: center; /* Centraliza o texto dentro do contêiner */
@@ -107,8 +107,8 @@ div#cadProf {
 .wrapper .btn {
     width: 100%; /* Largura total do botão */
     height: 40px; /* Altura do botão */
-    color: #fff; /* Cor do texto do botão como branco */
-    background: black; /* Cor de fundo do botão */
+    color: black; /* Cor do texto do botão como branco */
+    background: #fff; /* Cor de fundo do botão */
     border: none; /* Remove a borda padrão */
     outline: none; /* Remove o contorno padrão */
     border-radius: 40px; /* Arredonda os cantos do botão */

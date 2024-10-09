@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
   <!-- Define a codificação de caracteres da página como UTF-8 -->
   <meta charset="UTF-8">
@@ -42,7 +43,7 @@
     <form action=""> <!-- Formulário de login -->
       <h1>Login</h1> <!-- Cabeçalho do formulário -->
       <h4>Entre com usuário e senha</h4> <!-- Instrução para o usuário -->
-      
+
       <!-- Caixa de entrada para o usuário -->
       <div class="input-box">
         <input type="text" placeholder="Usuário" required> <!-- Campo de texto para usuário -->
@@ -58,7 +59,8 @@
       <!-- Divisão para opções de lembrar senha e link para recuperação -->
       <div class="remember-forgot">
         <label><input type="checkbox">Lembrar-me</label> <!-- Checkbox para lembrar o usuário -->
-        <a href="esqueceuASenha.html" id="openModal">Esqueceu a senha?</a> <!-- Link para recuperação de senha -->
+        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Esqueceu a senha?</a>
+        <!-- Link para recuperação de senha -->
       </div>
 
       <!-- Botão para enviar o formulário -->
@@ -69,6 +71,26 @@
         <p>Não tem uma conta? <a href="criarcontas.html">Criar Conta</a></p>
       </div>
     </form>
+  </div>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Esqueceu a senha?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Entre em contato com os administradores para recuperar a senha, ou alterar alguma
+            informação</p>
+          <p> Entre em contato com #exemplo@email.com</p>
+          <!-- Instrução para o usuário -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
