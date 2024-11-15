@@ -128,47 +128,45 @@ button#btnTurm1:hover, button#btnTurm2:hover, button#btnTurm3:hover {
     margin-top: 10px;
     overflow-y: scroll;
 }
-.box {
-    position: absolute;
-    width: 120px;
-    height: 40px;
-    background-color: black;
-    color: white;
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+}
+.box, .decision {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
-    font-size: 14px;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  #start {
-    top: 20px;
-    left: 20px;
-  }
-  
-  #process1 {
-    top: 80px;
-    left: 180px;
-  }
-  
-  #decision {
-    top: 140px;
-    left: 350px;
-  }
-  
-  #process2 {
-    top: 200px;
-    left: 200px;
-  }
-  #process3 {
-    top: 150px;
-    left: 150px;
-  }
-  #end {
-    top: 250px;
-    left: 50px;
-  }
+    width: 80%;
+}
+.decision {
+    border-radius: 50%;
+}
+.decision:hover{
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+.box:hover{
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+.arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #000;
+    margin: 10px;
+}
+@media (max-width: 700px) {
+    .box, .decision {
+        width: 100%;
+    }
+}
 .linksTurms {
     position: absolute;
     /* Posiciona a seção de links de forma absoluta */

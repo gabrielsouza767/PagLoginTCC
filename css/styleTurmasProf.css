@@ -20,7 +20,7 @@ body {
 div#genTurmas {
     width: 450px;
     /* Largura do contêiner para geração de turmas */
-    height: 300px;
+    height: 320px;
     /* Altura do contêiner */
     background-color: rgba(0, 0, 0, 0.774);
     /* Fundo semi-transparente escuro */
@@ -41,7 +41,17 @@ div#genTurmas {
     text-align: center;
     /* Centraliza o texto dentro do contêiner */
 }
- 
+.linkVoltar a{
+    position: absolute;
+    left: 80%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.linkVoltar a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
 button#btnTurmas1,
 button#btnTurmas2,
 button#btnTurmas3 {
