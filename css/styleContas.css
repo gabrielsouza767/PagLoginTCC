@@ -7,7 +7,7 @@ body {
     background-position: center center; /* Centraliza a imagem de fundo */
     display: grid; /* Utiliza grid para o layout */
     place-items: center; /* Centraliza os itens do grid */
-    overflow-x: hidden;
+    overflow-x:hidden ;
 }
 
 .cadastro {
@@ -38,6 +38,7 @@ body {
     left: 50%; /* Define a posição horizontal do contêiner */
     transform: translate(-50%, -50%); /* Centraliza o contêiner em relação ao seu próprio tamanho */
     text-align: center; /* Centraliza o texto dentro do contêiner */
+    overflow-y: scroll;
 }
 
 div#cadProf {
@@ -70,10 +71,11 @@ div#cadProf {
     border-radius: 40px; /* Arredonda os cantos do campo de entrada */
     font-size: 16px; /* Tamanho da fonte do campo de entrada */
     padding: 20px 45px 20px 20px; /* Preenchimento interno do campo de entrada */
+    color: #fff;
 }
 
 .input-box input::placeholder {
-    color: #fff; /* Define a cor do texto do placeholder como preto */
+    color: #ffffff68; /* Define a cor do texto do placeholder como preto */
 }
 
 .input-box i {
