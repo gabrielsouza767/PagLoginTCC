@@ -119,26 +119,29 @@ button#btnTurm1:hover, button#btnTurm2:hover, button#btnTurm3:hover {
     font-weight: 600;
     /* Define o peso da fonte como semi-negrito */
 }
-
-.chart {
-    width: 400px;
-    /* Define a largura do gráfico */
-    height: 300px;
-    /* Define a altura do gráfico */
-    margin-top: 30px;
-    /* Define uma margem superior */
+.Fluxograma{
+    width: 700px;
+    height:300px;
+    top: 30%;
+    left:20%;
+    position: absolute;
+    background-color: #fff;
+    margin-top: 10px;
+    overflow-y: scroll;
 }
-
 .linksTurms {
     position: absolute;
     /* Posiciona a seção de links de forma absoluta */
-    top: 30%;
+    top: 15%;
     /* Define a posição superior da seção */
-    left: 35%;
-    height: 40%;
-    width: 50%;
+    left: 15%;
+    height: 12%;
+    width: 70%;
     /* Define a posição à esquerda da seção */
-    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
 }
 .linksTurms button{
     margin: 3px;
@@ -161,9 +164,9 @@ button#btnTurm1:hover, button#btnTurm2:hover, button#btnTurm3:hover {
 }
 .btnVoltar{
     position: absolute;
-    top: 70%;
-    left: 20%;
+    top: 85%;
+    left: 15%;
     width:70%;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 35px;
 }
