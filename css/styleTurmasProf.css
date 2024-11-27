@@ -256,3 +256,14 @@ button#btnTurmas6:hover {
     padding: 15px;
     overflow-y: scroll;
 }
+.linkVoltar a{
+    position: absolute;
+    left: 80%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.linkVoltar a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
