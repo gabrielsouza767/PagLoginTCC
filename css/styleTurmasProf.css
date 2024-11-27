@@ -15,6 +15,7 @@ body {
     /* Utiliza grid para o layout */
     place-items: center;
     /* Centraliza os itens do grid */
+    overflow-x: hidden;
 }
  
 div#genTurmas {

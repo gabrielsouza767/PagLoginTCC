@@ -28,6 +28,7 @@ body {
     /* Centraliza o conteúdo verticalmente */
     min-height: 100vh;
     /* Define a altura mínima do corpo como 100% da altura da viewport */
+    overflow-x: hidden;
 }
 
 .wrapper {
